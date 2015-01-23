@@ -50,7 +50,6 @@ gem 'validates_formatting_of'
 gem 'haml'
 
 group :production, :staging do
-  gem 'pg'
   gem 'rails_12factor'
 end
 
