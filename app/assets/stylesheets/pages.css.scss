@@ -1,0 +1,41 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+	font-family: Lato;
+}
+
+a:link , a:visited{
+	color: rgb(57, 137, 244);
+}
+
+
+.content {
+	padding-left: 35px;
+}
+
+.projects-section, .network-section {
+	padding-left: 35px;
+}
+
+.section-title {
+
+
+}
+.item{
+	margin-top: 20px;
+}
+
+.item-name {
+	color: #6998ff;
+
+}
+.item-description {
+	color: #878889;
+}
+
+.hello {
+	color:rgb(57, 137, 244); 
+}
