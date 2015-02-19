@@ -4,38 +4,132 @@
 
 
 body {
-	font-family: Lato;
+  font-family: Lato;
 }
 
 a:link , a:visited{
-	color: rgb(57, 137, 244);
+  color: rgb(57, 137, 244);
 }
 
 
-.content {
-	padding-left: 35px;
-}
-
-.projects-section, .network-section {
-	padding-left: 35px;
-}
-
-.section-title {
-
-
-}
 .item{
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .item-name {
-	color: #6998ff;
+  color: #6998ff;
 
 }
 .item-description {
-	color: #878889;
+  color: #878889;
 }
 
 .hello {
-	color:rgb(57, 137, 244); 
+  color:rgb(57, 137, 244); 
 }
+
+#hero-block {
+  height: 100%;
+  weight: 100%;
+  color:white;
+  text-align: center;
+  // background-image: image-url('snow.jpg'); 
+  // background:black;
+  background-size: cover;
+  vertical-align: center;
+  z-index: 6;
+} 
+#hero-name {
+  margin-top: 15%;
+  display: inline-block;
+  z-index: 6;
+}
+#arrow { 
+  padding-top: 22%;
+  z-index: 6;
+}
+
+#particles-js {
+  background: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left:0px;
+  top:0px;
+  z-index:-1;
+}
+
+// .container .nav-buttons {
+//   opacity: 0.1;
+// }
+.nav-buttons {
+  text-align: right;
+  opacity: 1;
+}
+
+.navbar-default {
+background-color:blue;
+}
+
+.btn-default{
+  opacity: 1;
+}
+
+ul .nav .navbar-inverse .navbar-fixed-bottom .nav-pills .nav-justified {
+  text-align: right;
+  background-color: blue;
+  }
+/* navbar */
+.navbar-default {
+    background-color: blue;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+
+// .button-group-container {
+//    margin-left: 50%;
+// }
+
+// New Theme
+
+// .nav {
+//   position: fixed;
+//   width: 30px;
+//   height: 84px;
+//   z-index: 100;
+//   right: 0;
+//   top: 50%;
+//   margin-top: -42px; }
+//   .nav a {
+//     text-indent: -9999px;
+//     display: block;
+//     width: 14px;
+//     height: 14px;
+//     background: rgba(245, 246, 247, 0.4);
+//     -webkit-border-radius: 7px;
+//     -moz-border-radius: 7px;
+//     border-radius: 7px;
+//     margin-bottom: 20px;
+//     -webkit-transition: background 0.5s;
+//     -moz-transition: background 0.5s;
+//     -ms-transition: background 0.5s;
+//     -o-transition: background 0.5s;
+//     transition: background 0.5s; }
+//     .nav a:hover {
+//       background: #f5f6f7;
+//       -webkit-transition: background 1s;
+//       -moz-transition: background 1s;
+//       -ms-transition: background 1s;
+//       -o-transition: background 1s;
+//       transition: background 1s; }

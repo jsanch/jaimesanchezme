@@ -1,46 +1,84 @@
-.content
-	.row.h1
-		Jaime Sanchez
-	/ Start of Projects Section
-	
-	.row
-		.col-md-8.projects-section
-			.row
-				.section-title.h2
-					Projects
-			.row.item
-				.item-name
-					= link_to "http://jsanch.github.io/idhack" do 
-						Visualizing Tanzania
-				.item-description
-					A multi-stage project on design and development of visualizations about educational data in Tanzania
-			.row.item
-				.item-name
-					= link_to "http://flight-viz.github.io/flight-viz/" do 
-						Flight Viz
-				.item-description
-					Web app that visualizes airline on-time performance of US flights.
-			.row.item
-				.item-name
-					= link_to "https://github.com/jsanch/okra" do 
-						Okra
-				.item-description
-					Web app that uses OCR to parse a receipt and helps multiple users split the check simultaneously. (Currently down for some bug squashing)
-			.row.item
-				.item-name
-					= link_to "http://shwopp.herokuapp.com/" do 
-						SHWOOP
-				.item-description
-					Bartering web app for online bartering geared towards college students.
-		.col-md-4.network-section
-			.row
-				.section-title.h2
-					Networks
-			.row.item
-				.item-name
-					= link_to "https://github.com/jsanch" do
-						GitHub
-			.row.item
-				.item-name
-					= link_to "www.linkedin.com/pub/jaime-sanchez/29/313/9a4/" do
-						LinkedIn
+%ul.nav.navbar-default.navbar-fixed-top.nav-pills.nav-justified
+  %li 
+  %li
+  %li
+  %li
+  %li
+  %li
+  %li
+  %li
+  %li
+  %li
+  %li
+  %li
+    .btn.btn-default
+      Projects
+  %li 
+    .btn.btn-default
+      Contact
+  / .container
+  /   .row
+  /     .nav-buttons
+  /       .col
+  /         .nav-button
+  /           %a{:href => "#"} Projects
+  /       .col
+  /         .nav-button
+  /           %a{:href => "#"} Contact
+  /       .col
+  /         .nav-button
+  /           %a{:href => "#"} Messages
+.fullpage
+  .section
+    #hero-block
+      #hero-name
+        %img.img-circle{:height => "200", :src => "assets/snow.jpg", :width => "200"}/
+        %br
+        %p
+          Hi, I'm Jaime Sanchez
+      #arrow
+        %img{:src => "assets/arrow.png"}/
+    #particles-js
+
+  .section
+    .col-md-8
+      .section-title.h2
+        Projects
+      .item
+        .item-name
+          = link_to "http://jsanch.github.io/idhack" do 
+            Visualizing Tanzania
+        .item-description
+          A multi-stage project on design and development of visualizations about educational data in Tanzania
+      .item
+        .item-name
+          = link_to "http://flight-viz.github.io/flight-viz/" do 
+            Flight Viz
+        .item-description
+          Web app that visualizes airline on-time performance of US flights.
+      .item
+        .item-name
+          = link_to "https://github.com/jsanch/okra" do 
+            Okra
+        .item-description
+          Web app that uses OCR to parse a receipt and helps multiple users split the check simultaneously. (Currently down for some bug squashing)
+      .item
+        .item-name
+          = link_to "http://shwopp.herokuapp.com/" do 
+            SHWOOP
+        .item-description
+          Bartering web app for online bartering geared towards college students.
+  .section
+    .col-md-4
+      .section-title.h2
+        Contact
+      .item
+        .item-name
+          = link_to "https://github.com/jsanch" do
+            GitHub
+      .item
+        .item-name
+          = link_to "www.linkedin.com/pub/jaime-sanchez/29/313/9a4/" do
+            LinkedIn
+  .section
+

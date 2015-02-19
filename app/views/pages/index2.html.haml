@@ -1,0 +1,34 @@
+.nav
+  %a.scroll{:href => "index2#hero"} section one
+  %a.scroll{:href => "index2#work"} section two
+  %a.scroll{:href => "index2#networks"} section three
+%section#hero
+  .hero-block
+    %img.img-circle{:height => "200", :src => "assets/logo.png", :width => "200"}/
+    %p
+      Hello, I'm Carlos and this is our new theme, Small.
+      %br/
+      It is extremely easy to configure and use. Designed to show your Dribbble shots.
+      %br/
+      No complex stuff. Your logo, your shots & your social links. Easy stuff!
+  %a.scroll{:href => "index.html#work"}
+    %span.down-arrow
+%section#work
+  .showcase
+    .showcase-tiles
+      %ul.slides
+        feed
+    .showcase-info
+      %h2.mb-7 Follow me on Dribbble!
+%section#networks
+  .container
+    %p
+      %a{:href => "#"}
+        %i.dribbble.fa.fa-dribbble
+      %a{:href => "#"}
+        %i.facebook.fa.fa-facebook
+      %a{:href => "#"}
+        %i.twitter.fa.fa-twitter
+      %a{:href => "#"}
+        %i.mail.fa.fa-envelope
+/
